@@ -1,0 +1,5 @@
+{
+    "tableName": "matterhorn",
+    "partitionKeyName": "id",
+    "partitionKeyType": "S"
+}

@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/rate",
+            "lambdaFunction": "matterhorn",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/rate"
+        }
+    ],
+    "resourceName": "matterhorn",
+    "apiName": "matterhorn",
+    "functionArns": [
+        {
+            "lambdaFunction": "matterhorn"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-authcra-master-130244-authRole",
+        "unAuthRoleName": "amplify-authcra-master-130244-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "matterhorn",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+  "master": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-authcra-master-130244-authRole",
+      "UnauthRoleArn": "arn:aws:iam::895913420423:role/amplify-authcra-master-130244-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::895913420423:role/amplify-authcra-master-130244-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-authcra-master-130244-deployment",
+      "UnauthRoleName": "amplify-authcra-master-130244-unauthRole",
+      "StackName": "amplify-authcra-master-130244",
+      "StackId": "arn:aws:cloudformation:us-east-2:895913420423:stack/amplify-authcra-master-130244/186910b0-6f8e-11eb-9e96-0a131899b0a8",
+      "AmplifyAppId": "du6lutjxbnjf5"
+    },
+    "categories": {
+      "auth": {
+        "cognitocf0c6096": {}
+      },
+      "function": {
+        "matterhorn": {
+          "deploymentBucketName": "amplify-authcra-master-130244-deployment",
+          "s3Key": "amplify-builds/matterhorn-6234662b6247356a5a50-build.zip"
+        },
+        "sestest": {
+          "deploymentBucketName": "amplify-authcra-master-130244-deployment",
+          "s3Key": "amplify-builds/sestest-5a2f5277466669594649-build.zip"
+        }
+      },
+      "notifications": {}
+    }
+  }
+}
